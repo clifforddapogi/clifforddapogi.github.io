@@ -26,7 +26,7 @@
         <!-- Header-->
           <header>
             <h1 class="logo">
-            <a href="index.html" >
+            <a href="index.php" >
               <img  src="images/common/CSLogo.png" alt="CS" title="Clifford Santos | Front-End Web Developer and Digital Graphic Designer" />
             </a> 
             <strong class="cliffordsantos">
@@ -36,9 +36,9 @@
             </h1>
             <nav class="topnav">
               <ul class="link">
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="portfolio.php">Portfolio</a></li>
+                <li><a href="contact.php">Contact</a></li>
               </ul>
                <ul class="sociallink">
                   <li><a href="https://www.facebook.com/cliffordpangilinansantos" target="_blank"><img src="images/common/img_facebook.png" alt="Facebook" /></a></li>
@@ -167,9 +167,9 @@
             <p>&copy; 2015 Clifford Santos</p>
             <nav class="bottomnav">
                   <ul class="link">
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="about.php">About</a></li>
+                  <li><a href="portfolio.php">Portfolio</a></li>
+                  <li><a href="contact.php">Contact</a></li>
                 </ul>
 
             </nav>
