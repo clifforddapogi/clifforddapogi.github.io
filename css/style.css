@@ -1,0 +1,460 @@
+@charset "utf-8";
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.clear{
+clear:both;
+}
+/*End of CSS Reset*/
+
+/*Main CSS*/
+@font-face {
+  font-family: PillGothic600MG;
+  src: url('../font/pillgothic600mg-regular.ttf');
+}
+body{
+background:#fff;
+  width:100%;
+  font-family: "PillGothic600MG","Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+
+.outercontainer{
+  background: url('../images/common/bg_header.jpg') repeat-x;
+  width:100%;
+}
+
+.container{
+  width:1170px;
+  margin:0 auto;
+
+}
+
+header{
+  width:1040px;
+  height:70px;
+  padding:11px 0px;
+  margin:0 auto;
+
+}
+.logo{
+float:left;
+width:519px;
+height:70px;
+
+}
+.logo a img{
+  float:left;
+  background: url('../images/common/CSLogo.png') no-repeat center center;
+  width:70px;
+  height:70px;
+}
+.logo .cliffordsantos{
+float:left;
+font-size:35px;
+font-weight:bold;
+padding:6px 0 0 11px;
+color:#fff;
+}
+.logo .occupation{
+color:#fff;
+float:left;
+font-size:20px;
+padding-left:11px;
+}
+
+.topnav{
+float:left;
+width:521px;
+
+}
+.topnav .link{
+width:294px;
+list-style:none;
+padding:16px 0 0 6px;
+}
+.topnav .link li{
+float:left;
+margin:10px 0 0 23px;
+}
+.topnav .link li a{
+color:#fff;
+text-decoration:none;
+font-size:20px;
+font-weight:bold;
+}
+.topnav .link li a:hover{
+color:#bbb;
+}
+.topnav .sociallink{
+list-style:none;
+float:right;
+}
+.topnav .sociallink li{
+float:left;
+margin-left:5px;
+}
+.topnav .sociallink li a{
+float:left;
+}
+
+main{
+color:#000;
+width:1040px;
+margin:0 auto;
+}
+main .banner{
+margin:0 auto;
+width:1040px;
+height:600px;
+}
+main .bannerindex{
+background:url('../images/banner/img_clifford.png') no-repeat center bottom;
+}
+main .bannerabout{
+background:url('../images/banner/img_cliffordnomask.png') no-repeat center bottom;
+}
+
+main .bannercontact{
+background:url('../images/banner/img_mask.jpg') no-repeat left bottom;
+}
+
+
+main .banner .leftsection,main .banner .rightsection {
+width:346px;
+text-align:center;
+margin:140px 0 0  0;
+}
+main .banner .biggerwidth{
+width:65% !important;
+}
+main .banner .leftsection h2,main .banner .rightsection h2{
+font-weight:bold;
+font-size:45px;
+text-shadow:1px 1px 0px #aaa;
+}
+
+main .banner .leftsection p,main .banner .rightsection p{
+color:#333;
+font-size:25px;
+margin-top:30px;
+}
+main .banner .leftsection{
+float:left;
+}
+main .banner .rightsection{
+float:right;
+}
+
+aside{
+padding-top:110px;
+background:url('../images/common/bg_aside.jpg') repeat-x top left;
+margin-bottom:10px;
+}
+aside h3{
+font-size:20px;
+text-align:center;
+font-weight:bold;
+color:#333;
+text-shadow:1px 1px 0px #aaa;
+}
+hr{
+height:1px;
+border-bottom:1px solid #fff;
+width:1170px;
+}
+aside .skills{
+width:635px;
+height:300px;
+margin:0px auto;
+}
+
+aside p{
+color:#000;
+}
+ul.withlist{
+list-style:circle;
+padding-left:50px;
+}
+a.urllink{
+text-decoration:none;
+color:#000;
+}
+a.urllink:hover{
+text-decoration:underline;
+}
+.center{
+text-align:center;
+}
+h4{
+font-weight:bold;
+font-size:18px;
+}
+.gallery{
+float:left;
+width:1141px;
+padding-left:29px;
+}
+.gallery li{
+float:left;
+background: url('../images/common/bg_thumbnail.jpg') no-repeat center center;
+width:305px;
+height:235px;
+padding:16px 13px 39px 13px;
+margin:30px 0 30px 29px;
+}
+
+.gallery li a{
+float:left;
+width:305px;
+height:235px;
+}
+
+.gallery li p{
+color:#333;
+float:left;
+text-align:center;
+width:305px;
+padding:30px 0;
+}
+.gallery li p a{
+text-decoration:none;
+color:#333;
+}
+.gallery li p a:hover{
+text-decoration:underline;
+}
+.imgleft{
+float:left;
+margin:5px;
+}
+.school{
+margin:5px;
+}
+
+.seneca{
+height:30px;
+}
+.uc,.slu{
+height:50px;
+}
+#contact{
+width:490px;
+margin:auto;
+}
+
+#contact .formnote{
+padding:10px 0;
+margin:0 40px;
+}
+
+#contact label{
+float:left;
+width:480px;
+padding:5px;
+}
+#contact #name, #contact #email{
+float:left;
+border:#999 solid 1px;
+border-radius: 5px;
+width:400px;
+height:30px;
+padding:5px;
+margin:10px 0;
+}
+
+#contact #message{
+border:#999 solid 1px;
+border-radius: 5px;
+width:480px;
+height:150px;
+padding:5px;
+overflow:auto;
+margin:10px 0;
+}
+#contact .sendButton{
+float:right;
+color:#fff;
+background:#000;
+border:#999 solid 1px;
+border-radius: 5px;
+width:100px;
+height:30px;
+padding:5px;
+}
+
+label.error{
+border:dashed solid 1px;
+font-size:12px;
+color:red;
+}
+
+footer{
+padding-top:50px;
+width:100%;
+background: url('../images/common/bg_footer.jpg') repeat-x left bottom;
+height:90px;
+}
+
+footer p{
+color:#888;
+float:left;
+padding:43px 0 0 0;
+}
+
+footer .bottomnav{
+float:left;
+margin:43px auto;
+}
+footer .bottomnav ul{
+float:left;
+list-style:none;
+margin-left:250px;
+}
+footer .bottomnav ul li{
+float:left;
+margin:0 30px;
+}
+footer .bottomnav ul li a{
+text-decoration:none;
+color:#888;
+font-weight:bold;
+}
+footer .bottomnav ul li a:hover{
+text-decoration:none;
+color:#333;
+}
+footer .email{
+text-align:right;
+float:right;
+}
+footer .email a{
+color:#555;
+text-decoration:none;
+}
+footer .email a:hover{
+color:#000;
+text-decoration:underline;
+}
+
+
+
+/*chart css*/
+
+.pieID {
+  display: inline-block;
+  vertical-align: top;
+}
+.pie {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: 0 30px 30px 0;
+}
+.pie::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 100px;
+  background: #EEE;
+  border-radius: 50%;
+  top: 50px;
+  left: 50px;
+}
+.pie::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 3px 4px rgba(0,0,0,0.1);
+  margin: 220px auto;
+  
+}
+.slice {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  clip: rect(0px, 200px, 200px, 100px);
+  animation: bake-pie 1s;
+}
+.slice span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  clip: rect(0px, 200px, 200px, 100px);
+}
+.legend {
+color:#000;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #FFF;
+  padding: 15px;
+  font-size: 13px;
+  box-shadow: 1px 1px 0 #DDD,
+              2px 2px 0 #BBB;
+}
+.legend li {
+  width: 250px;
+  height: 1.25em;
+  margin-bottom: 0.7em;
+  padding-left: 0.5em;
+  border-left: 1.25em solid black;
+}
+.legend em {
+float:left;
+  font-style: normal;
+}
+.legend span {
+  float: right;
+}
+
+/*chart css*/
